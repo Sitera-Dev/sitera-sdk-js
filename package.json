@@ -1,0 +1,73 @@
+{
+  "name": "@sitera/sdk",
+  "version": "0.1.0",
+  "description": "Framework-agnostic JavaScript/TypeScript SDK for accessing complete Sitera business data",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./browser": {
+      "types": "./dist/browser.d.ts",
+      "import": "./dist/browser.js"
+    },
+    "./node": {
+      "types": "./dist/node.d.ts",
+      "import": "./dist/node.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "CHANGELOG.md",
+    "SKILL.md"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/ --ext .ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "pnpm build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sitera-Dev/sitera-sdk-js.git"
+  },
+  "homepage": "https://github.com/Sitera-Dev/sitera-sdk-js",
+  "bugs": {
+    "url": "https://github.com/Sitera-Dev/sitera-sdk-js/issues"
+  },
+  "keywords": [
+    "sitera",
+    "sdk",
+    "business",
+    "website",
+    "cms",
+    "typescript",
+    "framework-agnostic",
+    "business-data",
+    "seo",
+    "branding"
+  ],
+  "author": "Sitera <dev@sitera.id>",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^9.7.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@vitest/coverage-v8": "^3.2.7",
+    "eslint": "^9.25.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.1.0"
+  }
+}

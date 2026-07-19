@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const cafePreset: CategoryPreset = {
+  category: "cafe",
+  subcategory: "Coffee Shop",
+  industry: "Food & Beverage",
+  names: ["Kopi Kita", "Kedai Senja", "Ruang Kopi", "Cerita Kopi", "Bean & Brew"],
+  taglines: ["Tempat ngopi yang nyaman", "Kopi berkualitas, suasana hangat"],
+  serviceCategories: ["Beverages", "Workspace", "Event"],
+  serviceNames: ["Manual Brew", "Espresso Bar", "Coffee Workshop", "Meeting Room", "Co-Working Space", "Private Event", "Catering Kopi", "Latte Art Class"],
+  productCategories: ["Kopi", "Non-Kopi", "Pastry", "Light Meal"],
+  productNames: ["V60 Single Origin", "Cappuccino", "Matcha Latte", "Croissant", "Banana Bread", "Iced Americano", "Affogato", "Cold Brew", "Chai Latte", "Brownies", "Toast Avocado", "Smoothie Bowl"],
+  teamRoles: ["Head Barista", "Barista", "Cafe Manager", "Pastry Chef", "Kitchen Staff", "Cashier"],
+  facilities: ["Wi-Fi Cepat", "Stop Kontak", "AC", "Outdoor Seating", "Parkir Motor", "Board Games", "Buku Bacaan", "Pet Friendly"],
+  faqCategories: ["Menu", "Wifi", "Reservasi", "Jam Operasional"],
+  galleryCategories: ["Kopi", "Interior", "Makanan", "Suasana"],
+  bookingMode: "reservation",
+  locationTypes: ["store", "branch"],
+  deliveryTypes: ["dine-in", "pickup", "local-delivery"],
+  paymentTypes: ["cash", "qris", "e-wallet", "bank-transfer"],
+};

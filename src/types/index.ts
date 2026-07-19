@@ -1,0 +1,26 @@
+// Types barrel export
+export type * from "./common.js";
+export type * from "./business.js";
+export type * from "./contact.js";
+export type * from "./location.js";
+export type * from "./operating-hours.js";
+export type * from "./branding.js";
+export type * from "./seo.js";
+export type * from "./social.js";
+export type * from "./service.js";
+export type * from "./product.js";
+export type * from "./team.js";
+export type * from "./testimonial.js";
+export type * from "./faq.js";
+export type * from "./gallery.js";
+export type * from "./promotion.js";
+export type * from "./page.js";
+export type * from "./navigation.js";
+export type * from "./settings.js";
+export type * from "./legal.js";
+export type * from "./payment.js";
+export type * from "./booking.js";
+export type * from "./analytics.js";
+export type * from "./delivery.js";
+export type * from "./api.js";
+export type * from "./provider.js";

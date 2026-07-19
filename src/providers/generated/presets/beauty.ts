@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const beautyPreset: CategoryPreset = {
+  category: "beauty",
+  subcategory: "Salon & Spa",
+  industry: "Beauty & Wellness",
+  names: ["Cantik Alami", "Pesona Spa", "Glow Studio", "Kecantikan Bunda", "Ayu Beauty"],
+  taglines: ["Kecantikan alami dari dalam", "Perawatan premium untuk Anda"],
+  serviceCategories: ["Hair", "Facial", "Body", "Nail"],
+  serviceNames: ["Haircut & Styling", "Hair Coloring", "Facial Treatment", "Body Massage", "Manicure Pedicure", "Eyelash Extension", "Hair Spa", "Bridal Package"],
+  productCategories: ["Perawatan Rambut", "Perawatan Kulit", "Makeup"],
+  productNames: ["Serum Wajah", "Hair Mask", "Body Lotion", "Lip Cream", "Sunscreen", "Cleanser", "Toner", "Moisturizer", "Eye Cream", "Hair Oil", "Nail Polish Set", "Makeup Kit"],
+  teamRoles: ["Head Stylist", "Senior Therapist", "Beauty Consultant", "Nail Artist", "Makeup Artist", "Spa Therapist"],
+  facilities: ["AC", "Parkir", "Musholla", "Wi-Fi", "Private Room", "Locker", "Shower", "Waiting Area"],
+  faqCategories: ["Perawatan", "Booking", "Produk", "Harga"],
+  galleryCategories: ["Before After", "Salon", "Treatment", "Produk"],
+  bookingMode: "appointment",
+  locationTypes: ["store", "branch"],
+  deliveryTypes: ["pickup", "courier"],
+  paymentTypes: ["cash", "qris", "bank-transfer", "e-wallet"],
+};

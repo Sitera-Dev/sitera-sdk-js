@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const healthcarePreset: CategoryPreset = {
+  category: "healthcare",
+  subcategory: "Klinik Umum",
+  industry: "Healthcare",
+  names: ["Klinik Sehat Sentosa", "Medika Prima", "Klinik Kasih", "Sehat Bersama", "Klinik Pratama Husada"],
+  taglines: ["Kesehatan Anda prioritas kami", "Pelayanan kesehatan profesional"],
+  serviceCategories: ["Pemeriksaan", "Perawatan", "Laboratorium"],
+  serviceNames: ["Konsultasi Umum", "Medical Check Up", "Vaksinasi", "Fisioterapi", "Tes Laboratorium", "Konsultasi Gizi", "Perawatan Gigi", "Rawat Jalan"],
+  productCategories: ["Suplemen", "Alat Kesehatan"],
+  productNames: ["Vitamin C", "Multivitamin", "Masker Medis", "Hand Sanitizer", "Tensimeter", "Termometer Digital", "Oximeter", "First Aid Kit", "Vitamin D3", "Probiotik", "Omega 3", "Kolagen"],
+  teamRoles: ["Dokter Umum", "Dokter Spesialis", "Perawat Senior", "Apoteker", "Lab Analyst", "Admin Medis"],
+  facilities: ["Ruang Tunggu AC", "Apotek", "Lab", "Parkir", "Musholla", "Wheelchair Access", "UGD", "Ambulance"],
+  faqCategories: ["Jadwal Dokter", "Pendaftaran", "BPJS", "Layanan"],
+  galleryCategories: ["Fasilitas", "Tim Medis", "Ruang Perawatan", "Laboratorium"],
+  bookingMode: "appointment",
+  locationTypes: ["clinic", "branch"],
+  deliveryTypes: ["pickup"],
+  paymentTypes: ["cash", "bank-transfer", "qris", "debit-card"],
+};

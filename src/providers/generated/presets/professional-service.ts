@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const professionalServicePreset: CategoryPreset = {
+  category: "professional-service",
+  subcategory: "IT Consulting",
+  industry: "Technology",
+  names: ["Solusi Digital", "Karya Teknologi", "Mitra Inovasi", "TechPro Indonesia", "Digital Nusantara"],
+  taglines: ["Solusi digital untuk bisnis modern", "Partner teknologi terpercaya Anda"],
+  serviceCategories: ["Consulting", "Development", "Design", "Support"],
+  serviceNames: ["Web Development", "Mobile App", "UI/UX Design", "IT Consulting", "Cloud Migration", "SEO Optimization", "Digital Marketing", "Maintenance Support"],
+  productCategories: ["Paket Layanan", "Template", "Plugin"],
+  productNames: ["Starter Package", "Business Package", "Enterprise Package", "Landing Page Template", "E-Commerce Template", "SEO Audit", "Brand Identity Kit", "Social Media Kit", "Custom Dashboard", "API Integration", "Security Audit", "Performance Optimization"],
+  teamRoles: ["CEO", "CTO", "Project Manager", "Senior Developer", "UI/UX Designer", "Marketing Lead"],
+  facilities: ["Meeting Room", "Video Conference", "Wi-Fi", "Parkir", "Pantry", "Lounge"],
+  faqCategories: ["Layanan", "Harga", "Proses", "Support"],
+  galleryCategories: ["Portfolio", "Kantor", "Tim", "Event"],
+  bookingMode: "consultation",
+  locationTypes: ["head-office", "branch"],
+  deliveryTypes: ["digital-delivery"],
+  paymentTypes: ["bank-transfer", "credit-card", "payment-link"],
+};

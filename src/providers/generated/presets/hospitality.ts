@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const hospitalityPreset: CategoryPreset = {
+  category: "hospitality",
+  subcategory: "Hotel & Resort",
+  industry: "Hospitality",
+  names: ["Hotel Nusantara", "Pesona Resort", "Bintang Hotel", "Villa Harmoni", "Grand Orchid Hotel"],
+  taglines: ["Pengalaman menginap tak terlupakan", "Kenyamanan seperti di rumah"],
+  serviceCategories: ["Kamar", "F&B", "Fasilitas"],
+  serviceNames: ["Standard Room", "Deluxe Room", "Suite Room", "Meeting Room", "Spa & Massage", "Restaurant", "Laundry", "Airport Transfer"],
+  productCategories: ["Room Package", "F&B Package", "Experience"],
+  productNames: ["Paket Honeymoon", "Paket Staycation", "Family Package", "Meeting Package", "Breakfast Buffet", "Dinner Set", "Spa Package", "Adventure Tour", "Cultural Tour", "Yoga Class", "Cooking Class", "Diving Package"],
+  teamRoles: ["General Manager", "Front Office Manager", "Concierge", "Housekeeper", "Chef", "Spa Therapist"],
+  facilities: ["Kolam Renang", "Spa", "Gym", "Restaurant", "Meeting Room", "Parkir", "Wi-Fi", "Laundry"],
+  faqCategories: ["Check-in", "Fasilitas", "Booking", "Pembatalan"],
+  galleryCategories: ["Kamar", "Fasilitas", "Pemandangan", "Restoran"],
+  bookingMode: "room-booking",
+  locationTypes: ["head-office", "branch"],
+  deliveryTypes: ["dine-in", "pickup"],
+  paymentTypes: ["bank-transfer", "credit-card", "debit-card", "qris"],
+};

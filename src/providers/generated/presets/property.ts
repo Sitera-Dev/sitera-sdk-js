@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const propertyPreset: CategoryPreset = {
+  category: "property",
+  subcategory: "Real Estate",
+  industry: "Property & Real Estate",
+  names: ["Griya Nusantara", "Rumah Impian", "PropMax Indonesia", "Hunian Idaman", "Realty Prima"],
+  taglines: ["Wujudkan rumah impian Anda", "Investasi properti terpercaya"],
+  serviceCategories: ["Jual", "Sewa", "Konsultasi"],
+  serviceNames: ["Jual Rumah", "Sewa Apartemen", "Konsultasi Properti", "Survey Lokasi", "KPR Assistance", "Interior Design", "Property Management", "Legal Consultation"],
+  productCategories: ["Rumah", "Apartemen", "Ruko", "Tanah"],
+  productNames: ["Rumah Type 36", "Rumah Type 45", "Rumah Type 70", "Apartemen Studio", "Apartemen 2BR", "Ruko 2 Lantai", "Tanah Kavling", "Villa Resort", "Townhouse", "Rumah Mewah", "Penthouse", "Kost Eksklusif"],
+  teamRoles: ["Principal Agent", "Senior Agent", "Property Consultant", "Marketing Manager", "Legal Officer", "Finance Advisor"],
+  facilities: ["Security 24 Jam", "Kolam Renang", "Taman", "Parkir", "CCTV", "Playground", "Clubhouse", "Jogging Track"],
+  faqCategories: ["KPR", "Legalitas", "Fasilitas", "Lokasi"],
+  galleryCategories: ["Eksterior", "Interior", "Fasilitas", "Lingkungan"],
+  bookingMode: "property-visit",
+  locationTypes: ["head-office", "branch"],
+  deliveryTypes: ["digital-delivery"],
+  paymentTypes: ["bank-transfer", "credit-card", "payment-link"],
+};

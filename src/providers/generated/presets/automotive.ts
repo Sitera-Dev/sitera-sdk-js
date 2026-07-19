@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const automotivePreset: CategoryPreset = {
+  category: "automotive",
+  subcategory: "Bengkel & Service",
+  industry: "Automotive",
+  names: ["Bengkel Jaya Motor", "AutoCare Pro", "Maju Motor", "Bengkel Sentosa", "Tune Up Garage"],
+  taglines: ["Perawatan kendaraan terpercaya", "Servis berkualitas, harga bersahabat"],
+  serviceCategories: ["Service Rutin", "Perbaikan", "Modifikasi"],
+  serviceNames: ["Ganti Oli", "Tune Up", "Balancing", "Spooring", "AC Service", "Body Repair", "Cat Mobil", "Detailing"],
+  productCategories: ["Oli", "Spare Part", "Aksesoris"],
+  productNames: ["Oli Mesin 5W-30", "Filter Oli", "Busi", "Kampas Rem", "Air Filter", "Coolant", "Shockbreaker", "Aki Mobil", "Wiper Blade", "Ban Mobil", "Lampu LED", "Cover Jok"],
+  teamRoles: ["Kepala Bengkel", "Mekanik Senior", "Mekanik", "Service Advisor", "Spare Part Admin", "Kasir"],
+  facilities: ["Ruang Tunggu AC", "Wi-Fi", "Musholla", "Kantin", "Parkir Luas", "Cuci Mobil", "CCTV", "Toilet"],
+  faqCategories: ["Servis", "Harga", "Garansi", "Booking"],
+  galleryCategories: ["Before After", "Bengkel", "Hasil Kerja", "Fasilitas"],
+  bookingMode: "appointment",
+  locationTypes: ["store", "branch"],
+  deliveryTypes: ["pickup"],
+  paymentTypes: ["cash", "qris", "bank-transfer", "debit-card"],
+};

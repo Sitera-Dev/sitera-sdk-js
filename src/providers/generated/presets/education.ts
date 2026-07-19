@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const educationPreset: CategoryPreset = {
+  category: "education",
+  subcategory: "Course Center",
+  industry: "Education",
+  names: ["Cerdas Bersama", "Akademi Pintar", "Rumah Belajar", "EduPro Indonesia", "Sekolah Kreatif"],
+  taglines: ["Belajar tanpa batas", "Pendidikan berkualitas untuk semua"],
+  serviceCategories: ["Program", "Workshop", "Private"],
+  serviceNames: ["Kelas Bahasa Inggris", "Kelas Matematika", "Coding Bootcamp", "IELTS Preparation", "Les Privat", "Kelas Seni", "Public Speaking", "Leadership Training"],
+  productCategories: ["Buku", "Modul", "Aksesoris"],
+  productNames: ["Modul Bahasa", "Buku Latihan", "Flashcard Set", "Workbook", "E-Book Premium", "Study Planner", "Vocabulary Cards", "Grammar Guide", "Math Toolkit", "Science Kit", "Art Supply Set", "Digital Course"],
+  teamRoles: ["Kepala Sekolah", "Guru Senior", "Instruktur", "Tutor", "Admin Akademik", "Counselor"],
+  facilities: ["Ruang Kelas AC", "Lab Komputer", "Perpustakaan", "Musholla", "Kantin", "Parkir", "Wi-Fi", "Taman Bermain"],
+  faqCategories: ["Pendaftaran", "Biaya", "Jadwal", "Sertifikat"],
+  galleryCategories: ["Kelas", "Fasilitas", "Kegiatan", "Wisuda"],
+  bookingMode: "class-registration",
+  locationTypes: ["school", "branch"],
+  deliveryTypes: ["digital-delivery"],
+  paymentTypes: ["bank-transfer", "cash", "qris"],
+};

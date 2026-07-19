@@ -1,0 +1,20 @@
+import type { CategoryPreset } from "./restaurant.js";
+export const localBrandPreset: CategoryPreset = {
+  category: "local-brand",
+  subcategory: "Fashion & Accessories",
+  industry: "Retail",
+  names: ["Nusantara Brand", "Batik Kita", "Kreasi Lokal", "Karya Anak Bangsa", "Rupa Rupa"],
+  taglines: ["Produk lokal berkualitas dunia", "Bangga buatan Indonesia"],
+  serviceCategories: ["Custom Order", "Wholesale", "Reseller"],
+  serviceNames: ["Custom Design", "Bulk Order", "Reseller Program", "Gift Wrapping", "Personal Shopper", "Consultation", "Workshop", "Brand Collaboration"],
+  productCategories: ["Fashion", "Aksesoris", "Home Decor", "Gift"],
+  productNames: ["Batik Shirt", "Tote Bag", "Scarf Premium", "Earring Set", "Candle Aromatherapy", "Hampers Gift", "Pouch Kulit", "Sandal Handmade", "Mug Keramik", "Dompet Tenun", "Gelang Manik", "Tas Rajut"],
+  teamRoles: ["Founder", "Creative Director", "Production Manager", "Marketing", "Customer Service", "Designer"],
+  facilities: ["Showroom", "Workshop", "Parkir", "Wi-Fi", "Fitting Room", "Gift Wrapping Station"],
+  faqCategories: ["Produk", "Pengiriman", "Reseller", "Custom Order"],
+  galleryCategories: ["Produk", "Behind The Scene", "Event", "Customer"],
+  bookingMode: "custom",
+  locationTypes: ["store", "warehouse"],
+  deliveryTypes: ["pickup", "courier", "shipping"],
+  paymentTypes: ["bank-transfer", "qris", "e-wallet", "marketplace"],
+};
