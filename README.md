@@ -1,8 +1,3 @@
----
-name: sitera-sdk-js
-description: The official, stable, and framework-agnostic JavaScript/TypeScript SDK for the Sitera ecosystem.
----
-
 # Sitera SDK
 
 Welcome to the official Sitera SDK! This is the primary data access layer for building applications within the Sitera ecosystem. It is framework-agnostic and provides a strictly typed, Type-First API for interacting with the entire Sitera business model.
