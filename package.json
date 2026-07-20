@@ -35,6 +35,7 @@
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "clean": "rm -rf dist",
+    "prepare": "npm run build",
     "prepublishOnly": "pnpm build"
   },
   "repository": {
